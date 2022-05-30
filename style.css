@@ -1,0 +1,417 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;700&display=swap');
+
+:root {
+    --fonte-padrao: 'Questrial', Arial, Verdana, Helvetica, sans-serif;
+    --fonte-str: 'Poppins', Arial, Verdana, Helvetica, sans-serif;;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+}
+
+button#inicio {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 48em) {
+
+    div.escrito h1 {
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+        width: 600px;
+        font-family: var(--fonte-str);
+        font-size: 50px;
+    }
+
+    div.escrito p {
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+        width: 600px;
+        font-family: var(--fonte-str);
+        font-size: 24px;
+    }
+
+    #mao{
+        width: 500px;
+        height: 10%;
+    }
+
+    .bandeiras{
+        width: 50%;
+    }
+
+}
+
+.principal {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.secundario {
+    background-color: #16AC52;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.solucoes {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contato {
+    background-color: #16171B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+div.escrito2 h1 {
+    position: relative;
+    margin: 50px auto 30px auto;
+    width: 900px;
+    font-family: var(--fonte-str);
+    font-size: 42px;
+}
+
+div.escrito3 h1 {
+    position: relative;
+    text-align: center;
+    margin: 20px auto 150px auto;
+    width: 750px;
+    font-family: var(--fonte-str);
+    font-size: 42px;
+}
+
+
+div.escrito5 h1 {
+    color: #fff;
+    position: relative;
+    text-align: center;
+    margin: 50px auto 30px auto;
+    width: 750px;
+    font-family: var(--fonte-str);
+    font-size: 42px;
+}
+
+div.escrito5 p {
+    color: #fff;
+    text-align: center;
+    width: auto;
+    padding: 25px;
+    font-family: var(--fonte-str);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#preco {
+    color: #fff;
+    position: relative;
+    text-align: center;
+    margin: 50px auto 0px auto;
+    width: 750px;
+    font-family: var(--fonte-str);
+    font-size: 75px;
+}
+
+div.escrito5 button {
+    position: relative;
+    margin: 20px auto;
+    left: 26%;
+}
+
+div.escrito5 img {
+    position: relative;
+    margin: 20px auto;
+    left: 25%;
+    width: 50%;
+}
+
+div.escrito3 p {
+    position: relative;
+    left: 30%;
+    color: #000;
+    margin: -30px auto;
+    width: 500px;
+    padding: 25px;
+    font-family: var(--fonte-str);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.solucoes {
+    height: 500px;
+    background-image: url('./src/imagens/costa-m.png');
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+div.escrito5 p {
+    color: #fff;
+    margin: auto;
+    line-height: 2.4em;
+    width: auto;
+    padding: 2px;
+    font-family: var(--fonte-str);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+div.escrito2 p {
+    color: #000;
+    margin: 120px auto;
+    width: auto;
+    padding: 25px;
+    font-family: var(--fonte-str);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+div.escrito2 p::after {
+    content: '\00A0\00A0\⇣';
+}
+
+button.inicio {
+    font-family: var(--fonte-str);
+    font-size: 1.2em;
+    background-color: #000;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 67px;
+    position: relative;
+    margin: 20px auto;
+    border: none;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+
+button#final {
+    font-family: var(--fonte-str);
+    font-size: 1.2em;
+    background-color: #000;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    height: 67px;
+    position: relative;
+    margin: auto;
+    left: 25%;
+    width: 50%;
+    border: none;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+
+footer {
+    font-family: var(--fonte-str);
+    color: #5c5858;
+    margin: auto;
+    padding: 32px;
+    text-align: center;
+}
+
+@media screen and (max-width: 48em){
+
+    div.escrito h1 {
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+        width: 400px;
+        font-family: var(--fonte-str);
+        font-size: 34px;
+    }
+
+    div.escrito p {
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+        width: 400px;
+        font-family: var(--fonte-str);
+        font-size: 24px;
+    }
+
+    div.escrito2 h1 {
+        margin: 50px auto;
+        margin-bottom: 50px;
+        width: auto;
+        padding: 25px;
+        font-family: var(--fonte-str);
+        font-size: 28px;
+    }
+    
+    div.escrito3 {
+       position: relative; 
+    }
+
+    div.escrito3 h1 {
+        margin: 50px auto;
+        margin-bottom: 50px;
+        width: auto;
+        padding: 25px;
+        font-family: var(--fonte-str);
+        font-size: 28px;
+    }
+
+    div.escrito3 p {
+        margin: 50px auto;
+        margin-bottom: 50px;
+        width: auto;
+        padding: 25px;
+        font-family: var(--fonte-str);
+        font-size: 28px;
+    }
+
+    div.escrito5 h1 {
+        color: #fff;
+        text-align: center;
+        margin: 50px auto;
+        width: auto;
+        padding: 25px;
+        font-family: var(--fonte-str);
+        font-size: 34px;
+        font-weight: 600;
+    }
+
+    div.escrito5 p {
+        color: #fff;
+        text-align: center;
+        margin: 0px auto;
+        width: auto;
+        padding: 0px;
+        font-family: var(--fonte-str);
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    div.escrito2 p {
+        margin: 50px auto;
+        width: auto;
+        padding: 25px;
+        font-family: var(--fonte-str);
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    div.escrito2 p::after {
+        content: '\00A0\00A0\⇣';
+    }
+
+    .bandeiras {
+        position: relative;
+        margin: 20px auto;
+        width: 70%;
+    }
+
+    #preco {
+        color: #fff;
+        position: relative;
+        text-align: center;
+        margin: 50px auto 0px auto;
+        width: 750px;
+        font-family: var(--fonte-str);
+        font-size: 50px;
+    }
+    
+
+    button#final {
+        font-family: var(--fonte-str);
+        font-size: 1.2em;
+        background-color: #000;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        height: 67px;
+        position: relative;
+        margin: auto;
+        left: 33%;
+        width: 250px;
+        border: none;
+        box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 3px;
+    }
+
+    #mao {
+        width: 200px;
+    }
+
+    div.escrito5 img {
+        position: relative;
+        margin: 20px auto;
+        left: 33%;
+        width: 33%;
+    }
+
+    .solucoes {
+        align-items: center;
+        text-align: center;
+        height: 500px;
+        background-color: #000;
+        background-image: url('./src/imagens/costa-m.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    div.escrito3 h1 {
+        color: #fff;
+        position: relative;
+        text-align: center;
+        margin: 20px auto 23% auto;
+        width: 750px;
+        font-family: var(--fonte-str);
+        font-size: 42px;
+    }
+
+    div.escrito3 p {
+        position: relative;
+        left: 2%;
+        color: #fff;
+        margin: 22px auto;
+        width: 300px;
+        padding: 25px;
+        font-family: var(--fonte-str);
+        font-size: 15px;
+        line-height: 22.5px;
+        font-weight: 600;
+    }
+
+}
